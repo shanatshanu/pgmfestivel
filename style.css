@@ -1,0 +1,166 @@
+body{
+    background-size: cover;
+}
+#index{
+    position:relative;
+    padding-left: 110px;
+    font-style:italic;
+    font-display: initial;
+    color: rgb(201, 17, 97);
+    font: size 250px;
+
+}
+
+
+#registration{
+    font-style: oblique;
+    font-size: 80px;
+    position: absolute;
+    width: 250px;
+} 
+
+h1{
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+    font-size: 15px;
+    margin-top: -1px;
+}
+
+form{
+    width: 200px;
+}
+
+form label{
+    display: flexbox;     /*box mods*/
+    margin-top: 10px;
+}
+
+form input{
+    width: 100%;
+    padding: 5px;             /*box changes*/
+    border-radius: 6px;
+}
+
+input[type="submit"]{
+    background-color: rgb(15, 61, 197);       /*inside submit*/
+    color: rgba(232, 222, 223, 0.653);
+    
+}
+
+
+
+
+
+#submit{
+    float: right;
+    width: 80px;
+    font-size: 15px;
+    padding-right: 30px;
+    padding-left: 18px;
+} 
+
+.signbox{
+    font-size: medium;
+    width: 340px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    border: 1px solid rgb(215, 202, 202);
+    border-width: 3px;
+    margin-left: 490px;   /*to move left*/
+    margin-top: 90px;
+    background-color: rgb(193, 160, 194); 
+    font-style: italic;
+    
+}
+.body{
+    width: 200%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+       background-color: rgb(163, 106, 163);
+    background-position: center;
+       
+   }
+   .heading{
+    width: 30%;
+    text-align: center;
+    color: rgb(61, 16, 108);
+    font-style: italic;
+    font-size: medium;
+    font: size 30px;;
+   }
+   .heading h1{
+    font-size: 40px;
+   }
+   .heading a{
+    text-decoration: none;
+    color: rgb(194, 187, 190);
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 45px;
+    padding: 14px 50px;
+    background-color: rgb(48, 28, 230);
+   }
+   .heading a:hover{
+    letter-spacing: 3px;
+    transition: 0.6s;
+   }
+   .tours{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+   }
+   .places{
+    display: inline;
+    text-align: center;
+    border-radius: 12px;
+   }
+   .places h2{
+    color: rgb(57, 45, 165);
+    font-style: italic;
+    font-size: 35px;
+    letter-spacing: 3px;
+    border-radius: 1px;
+    padding: 30px 30px;
+    background-color: rgba(89, 64, 136, 0.657);
+   }
+   .places a{
+    text-decoration: none;
+    color: rgb(76, 0, 255);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 12px 30px;
+    background-color: rgb(115, 72, 163);
+   }
+   .places a:hover{
+    background-color: rgb(224, 208, 208);
+    letter-spacing: 3px;
+    transition: 0.6s;
+   }
+   .footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+   .footer a{
+    text-decoration: none;
+    color: rgb(124, 0, 128);
+    font-size: 18px;
+    font-weight: bold;
+   }
+   .footer a:hover{
+    text-decoration: underline;
+    transition: 0.4s;
+   }
+   
+
+
